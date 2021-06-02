@@ -143,7 +143,8 @@ class MultiListbox(tk.Listbox):
         return 'break'
 
     def curselection(self):
-        return self.lists[0].curselection()
+        widget = self.focus_get()
+        return widget.curselection()
 
     def setCurrent(self, event):
         self.ctrlClicked = False
