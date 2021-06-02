@@ -1,5 +1,5 @@
 # expanded on the original work of adam jagosz who created a python script to be able to reorder a listbox
-# I altered the code to be able to link multiple listbox and keep them synchronized. This way you can have key value pairs.
+# I altered the code to be able to link multiple listboxes and keep them synchronized. This way you can have key value pairs.
 
 import tkinter as tk
 
